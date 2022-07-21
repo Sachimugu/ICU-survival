@@ -107,9 +107,6 @@ go http://127.0.0.1:8000/ on webbrower
 │   └── reportp.pptx
 └── README.md
 ```
-
-#### Authors
-- [@sachimugu](https://www.github.com/sachimugu)
 #### Contribution
 Pull requests are welcome! For major changes.
 
