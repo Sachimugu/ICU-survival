@@ -70,7 +70,7 @@ conda activate icuprediction
 ```
 ```bash
 # enter the Script  directory
-cd ./site/icu
+cd ./site/django-web-app
 ```
 ```bash
 # run scrpt

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+/*  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);*/
+}
+
+.bg {
+  background-image: url(img2.png);
+ /*or 70%, or what you want*/
+  height: 45vw; /*or 70%, or what you want*/
+  background-size: cover;
+/*  background-position: center;*/
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/*----------------------------button--------------------------*/
+.btn {
+  margin-bottom: 10px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-weight: 400;}
+
+.btn:hover {
+  transform: scale(1.01);
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+#submit {
+  background: #1f6200;}
+#reset {
+  background: #ffa300;}
+
+/*----------------------------navbar--------------------------*/
+.navigationWrapper {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-left: 50px;
+  background-color: #222;
+  box-shadow: 0 05px 5px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  overflow: hidden;}
+
+ul {list-style: none;}
+ul li {display: inline;}
+li a {
+  font-size: 17px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;}
+
+h1 {color: #ffa300;}
+/*----------------------------main container--------------------------*/
+.container {
+padding-top: 100px;
+}
+
+.container h2  {
+color: #006DCC;
+}
+
+.container2 h4 {
+padding-top: 20px;
+}
+/*----------------------------result--------------------------*/
+.result {
+  margin-left: 70px;
+
+  background-color: rgba(0,0,0,0.4);
+  border-style: solid;
+  border-color: rgba(0,0,0,0.1);
+  height: 80px;
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+}
+#pred1 {
+  padding-top: 20px;
+  color: #00FF00;
+}
+#pred2 {
+  padding-top: 20px;
+  color: #ffa300;
+}
+/*----------------------------container2--------------------------*/
+.container2 {
+margin-top: 1px;
+border-radius: 40px;
+text-align: center;
+background-color: rgba(255,255,255,0.2);
+color: #006DCC;}
+
+ /*----------------------------flex container items--------------------------*/
+ .flex-container {
+  display: flex;
+/*  background-color: #f4f4f4;*/
+  justify-content: right;
+  align-items: center;
+}
+
+.item {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+   color: #fff;
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+.item label {margin-top: 10px;}
+
+/*----------------------------flex container2 items--------------------------*/
+/*----------------------------flex container2 items--------------------------*/
+.flex-container-two{
+  display: flex;
+  height: 30px;
+/*   background-color: #f4f4f4;*/
+   align-items: center;
+   justify-content: space-around;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.item2{
+  color: #fff;
+  cursor: pointer;}
+/*----------------------------flex container3--------------------------*/
+
+ .flex-container-three{
+  display: flex;
+ /* height: 50px;*/
+  justify-content: space-around;
+  align-items: center;
+/*  background-color: #ff4f4f;
+*/  margin-top: 15px;
+margin-bottom: 1px;
+}
+
+.QWE{
+  background-color: #fff;
+  width: 250px;
+  height: 30px;
+}
+
+
+.forterwraper {
+  marrgin: 50px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-left: 50px;
+  background-color: #222;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Menlo, monospace;}
+
+ul {list-style: none;
+    margin-top: 10px;
+}
+ul li {display: inline;}
+.forterwraper li a {
+  font-size: 12px;
+  padding: 10px;
+  color: #ffa300;
+  text-decoration: none;
+}
+.forterwraper li a :hover{color: #fff;}
+
+#psfip {
+  font-size: 17px;
+  padding-top: 80px;
+}
+
+input:hover {
+  background-color: #dee2e6;;
+  border-style: 2 solid;
+  border-color: #006DCC;
+
+}
+select:hover {
+  background-color: #dee2e6;;
+  border-style: 2 solid;
+  border-color: #006DCC;
+
+}
+.ccv {cursor: pointer;}
