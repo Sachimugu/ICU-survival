@@ -8,9 +8,6 @@ Badge [source](https://shields.io/)
   - [Run Locally](#run-locally)
   - [Repository structure](#repository-structure)
 
-
-
-
 ## 1. Business problem
 <a name = "intro"></a>
 The challenge is to create a model that uses data from the first 24 hours of intensive care to predict patient survival. In clinical practice, estimates of mortality risk can be useful in triage and resource allocation, to determine appropriate levels of care, to prepare discussions with patients and their families around expected outcomes and help policymakers identify and make better health policies.
@@ -114,6 +111,10 @@ go http://127.0.0.1:8000/ on webbrower
 #### Authors
 - [@sachimugu](https://www.github.com/sachimugu)
 #### Contribution
-
 Pull requests are welcome! For major changes.
+
+<a href="mailto:sachimugu@gmail.com"> ![](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white) </a>
+<a href="https://www.linkedin.com/in/achimugu-a-79aa8a18a/"> ![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+<a href="https://twitter.com/achimugu_a"> ![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white) </a>
+<a href="https://medium.com/@sachimugu"> ![](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white) </a>
 
