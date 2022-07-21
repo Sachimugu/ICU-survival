@@ -1,5 +1,5 @@
 # ICU SURVIVAL PREDICTION
-Badge [source](https://shields.io/)
+![dashboard](assets/sc.png)
 ## Table of Contents
 
   - [Business problem](#business-problem)
