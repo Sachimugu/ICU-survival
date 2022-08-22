@@ -24,6 +24,7 @@ MIT's GOSSIS community initiative, with privacy certification from the Harvard P
 ## 2. Quick glance at the results
 ### Exploratory analysis
 **1. Percentage Representation of hospital_death**
+
 ![Bmi](assets/eda_ps.png)
 - The target feature (hospital_death) is highly imbalance with with a ```91%``` survival rate and ```9%``` non survival
 - 
@@ -42,9 +43,11 @@ MIT's GOSSIS community initiative, with privacy certification from the Harvard P
 - Height has normally distribution. 
 - The mean ```age```, ```bmi```, ```height``` and ```weight```  are ```62.48```, ```29.15```, ```169.66cm``` and ```83.98kg``` respectively.
 **4. Age group**
+
 |||
 |-------------------	    |------------------	|
 |![Bmi](assets/age.png)|![Bmi](assets/eda_age.png)|
+
 - ```63%``` patient from the observation are aged above 60 years old adults
 ### Model performance
 **1. ROC_AUC Metrics**
