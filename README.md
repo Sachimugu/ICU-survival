@@ -53,11 +53,11 @@ MIT's GOSSIS community initiative, with privacy certification from the Harvard P
 **2. Best 3 models**
 The Top 3 with the best performance are
 
-| Model     	            | ROC_AUC score 	    |
-|-------------------	    |------------------	|
-| Logistic Regression   	| 0.706            |
-| Gradient boosting    	  | 0.778	            |
-| Light Gradient boosting       | 0.778            |
+| Model     	            | ROC_AUC score 	    | Recall score|
+|-------------------	    |------------------	|-----|
+| Logistic Regression   	| 0.706            |65%|
+| Gradient boosting    	  | 0.778	            |78%|
+| Light Gradient boosting       | 0.778       |78%|
 
 
 **3. Confusion matrix and ROC_AUC of LightGB classifier**
