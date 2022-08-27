@@ -39,7 +39,7 @@ def Home(request):
 		{x["Mean Aterial Pressure"][int(y["index11"][0])]} Mean Aterial Pressure, 
 		{x["Age"][int(y["index8"][0])]} Age Group, {float(y["index4"][0])} ICU Death Prob, 
 		{float(y["index2"][0])}℃ Body Temprature, {x["Apache III Bodysystem"][int(y["index5"][0])]} Apache III Bodysystem, and
-		{x["Glassgo Coma Scale"][int(y["index7"][0])]} Glassgo Coma Scale,
+		{x["Glassgo Coma Scale"][int(y["index7"][0])]} Glassgo Coma Scale.
 		'''
 		parameters=u.strip('\n').replace('\n', ' ')
 		print(parameters)
@@ -47,21 +47,23 @@ def Home(request):
 		model=pickle.load(open('pickel_lgb_model.pkl', 'rb'))
 		data = []
 
-		data.append(request.POST["index0"])
-		data.append(request.POST["index1"])
-		data.append(request.POST["index2"])
-		data.append(request.POST["index3"])
-		data.append(request.POST["index4"])
-		data.append(request.POST["index5"])
-		data.append(request.POST["index6"])
-		data.append(request.POST["index7"])
-		data.append(request.POST["index8"])
-		data.append(request.POST["index9"])
-		data.append(request.POST["index10"])
-		data.append(request.POST["index11"])
+		data.append(float(request.POST["index0"]))
+		data.append(float(request.POST["index1"]))
+		data.append(float(request.POST["index2"]))
+		data.append(float(request.POST["index3"]))
+		data.append(float(request.POST["index4"]))
+		data.append(float(request.POST["index5"]))
+		data.append(float(request.POST["index6"]))
+		data.append(float(request.POST["index7"]))
+		data.append(float(request.POST["index8"]))
+		data.append(float(request.POST["index9"]))
+		data.append(float(request.POST["index10"]))
+		data.append(float(request.POST["index11"]))
+		print(data)
 		if request.POST["index12"] == 'Floor':
 			data.append(1)
 			data.append(0)
+
 		elif request.POST["index12"] == 'OR':
 			data.append(0)
 			data.append(1)
